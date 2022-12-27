@@ -5,7 +5,8 @@
 ### Description
 
 The to-do list app is a command-line application that allows users to manage their tasks by adding, removing, and marking tasks as completed, as well as viewing their list of tasks. The app also has the ability to save and load tasks from a file, so that users can access their tasks across multiple sessions.
-Data model
+
+### Data model
 
 The app uses a data model based on a list of dictionaries, with a dictionary representing individual tasks and a python list object representing the overall to-do list. Each task has three attributes: description, which stores the task description as a string; due_date, which stores the task due date as a string; and completed, which stores a boolean value indicating whether the task has been completed or not. 
 
